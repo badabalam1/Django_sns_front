@@ -1,0 +1,97 @@
+.mypage-wrapper {
+    padding-top: 60px;
+    height: 100%;
+    margin: 0 auto;
+    -webkit-box-flex: 1;
+    flex: 1;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.mypage-header {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #ced4da;
+}
+
+.mypage {
+    margin-top: 15px;
+}
+
+.mypage-image-div {
+    padding: 30px 100px 50px 100px;
+}
+
+.mypage-image {
+    border: 1px solid;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    display: block;
+    flex: 1;
+}
+
+.h2-button {
+    display: flex;
+    flex-direction: row;
+}
+
+.h2-button > h1 {
+    font-size: 28px;
+    font-weight: 300;
+    margin-top: 20px;
+    padding-right: 10px;
+}
+
+.follow, .unFollow {
+    width: 80px;
+    height: 30px;
+    font-weight: 600;
+    color: white;
+    background: #159867;
+    border: none;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.unFollow {
+    background: #e03131;
+}
+
+.mypage-nickname {
+    width: 30rem;
+    height: 100%;
+    flex: 1;
+    margin-top: 35px;
+}
+
+.count {
+    margin-top: -5px;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    margin-left: -40px;
+}
+
+.post-count, .followers {
+    margin-right: 40px;
+}
+
+.logout_div {
+    margin-top: 25px;
+}
+
+.logout {
+    border-radius: 5px;
+    border: 1px solid #e03131;
+    background: #e03131;
+    font-weight: 600;
+    color: white;
+
+    height: 30px;
+    width: 60%;
+}
